@@ -105,7 +105,7 @@ body {
 
 .works {
   display: grid;
-  width: 375px;
+  width: 335px;
   height: 700px;
   align-items: center;
   padding: 70px 20px;
@@ -556,7 +556,7 @@ body {
 .rectangle4 {
   width: 74.701px;
   height: 17.211px;
-  margin-left: 305px;
+  margin-left: 300px;
   margin-top: 50px;
   transform: rotate(-23.177deg);
   flex-shrink: 0;
