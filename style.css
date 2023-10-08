@@ -5,13 +5,13 @@
 body {
   margin: 0;
   padding: 0;
-  width: 375px;
+  width: 100%;
   background-color: #ececebf3;
 }
 
 .container {
   display: flex;
-  width: 339px;
+  width: 95%;
   height: 48px;
   padding: 4px 24px 4px 12px;
   align-items: flex-start;
@@ -21,12 +21,12 @@ body {
 }
 
 .logo {
+  display: flex;
   margin-top: 10px;
   width: 100px;
-  height: 100px;
+  height: 40px;
   text-align: center;
-  display: inline;
-  color: blue;
+  color: #6070ff;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -42,10 +42,10 @@ body {
 }
 
 .container-headline {
-  width: 327px;
   display: flex;
   flex-direction: column;
   background: url("mobile.png") no-repeat;
+  background-size: 100% 100%;
   align-items: center;
   padding: 114px 24px;
   border-bottom-left-radius: 25px;
@@ -54,12 +54,12 @@ body {
 
 .text {
   display: flex;
-  width: 327px;
+  width: 100%;
   height: 150px;
-  padding: 10px 10px;
+  padding: 10px 110px;
   flex-direction: column;
   justify-content: center;
-  color: #172b4d;
+  color: #091e42;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-style: normal;
@@ -68,8 +68,7 @@ body {
 }
 
 .content {
-  width: 327px;
-  height: 146px;
+  width: 100%;
   color: #344563;
   padding: 10px 10px;
   font-family: 'Poppins', sans-serif;
@@ -82,10 +81,9 @@ body {
 .connect {
   display: flex;
   color: #7f8cff;
-  width: 327px;
+  width: 100%;
   justify-items: flex-start;
   align-items: center;
-  padding: 1px 10px;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -98,14 +96,13 @@ body {
   justify-items: flex-start;
   align-items: center;
   align-self: flex-start;
-  padding: 10px;
+  padding: 10px 10px 10px 2px;
   width: 170.167px;
   height: 20px;
 }
 
 .works {
   display: grid;
-  width: 335px;
   height: 700px;
   align-items: center;
   padding: 70px 20px;
@@ -113,7 +110,6 @@ body {
 }
 
 .workscontainer {
-  width: 303px;
   display: flex;
   height: 585px;
   padding: 16px;
@@ -126,23 +122,55 @@ body {
 }
 
 .toniclayout {
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-self: flex-end;
   gap: 12px;
 }
 
 .canopylayout {
   display: flex;
-  width: 290px;
+  width: 200%;
   align-items: center;
   gap: 12px;
 }
 
-.snapimg {
-  width: 295px;
-  height: 220px;
+.snapimg1 {
+  width: 263px;
+  height: 188px;
   padding: 16px;
+  border-radius: 8px;
+  background: url(Snapshoot.png), no-repeat;
+}
+
+.snapimg2 {
+  width: 263px;
+  height: 188px;
+  padding: 16px;
+  border-radius: 8px;
+  background: url(Snapshoot2.png), no-repeat;
+}
+
+.snapimg3 {
+  width: 263px;
+  height: 188px;
+  padding: 16px;
+  border-radius: 8px;
+  background: url(Snapshoot3.png), no-repeat;
+}
+
+.f {
+  display: none;
+}
+
+.snapimg4 {
+  width: 263px;
+  height: 188px;
+  padding: 16px;
+  border-radius: 8px;
+  background: url(Snapshoot4.png), no-repeat;
 }
 
 .tonic {
@@ -183,7 +211,7 @@ body {
 
 .content2 {
   color: #344563;
-  width: 295px;
+  width: 200%;
   padding: 16px;
   height: 76px;
   font-family: 'Poppins', sans-serif;
@@ -210,12 +238,13 @@ body {
 
 .tagslayout {
   display: flex;
-  width: 290px;
+  width: 200%;
   align-items: center;
   gap: 8px;
 }
 
 .seeprojectlayout {
+  width: 110%;
   display: flex;
   padding: 12px 169px 12px 0;
   align-items: center;
@@ -238,27 +267,27 @@ body {
   border: 1px solid #6070ff;
 }
 
-#multiworks {
+.multiworks {
   height: 625px;
 }
 
-#multipost {
+.multipost {
+  width: 160%;
   height: 88px;
-  margin-left: px;
 }
 
 .myself {
   display: grid;
-  width: 327px;
+  width: 96.5%;
   align-items: center;
   padding: 114px 24px;
-  border-top-right-radius: 25px;
+  border-top-right-radius: 15%;
   background-color: #fff;
 }
 
 .aboutmyself {
   display: flex;
-  width: 327px;
+  width: 60%;
   height: 35px;
   flex-direction: column;
   justify-content: center;
@@ -271,8 +300,8 @@ body {
 }
 
 .paragraph {
-  width: 327px;
-  height: 147px;
+  width: 295px;
+  height: 167px;
   color: #344563;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -324,7 +353,7 @@ body {
   display: flex;
   padding: 1px;
   flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
   gap: 12px;
 }
 
@@ -437,27 +466,27 @@ body {
   cursor: pointer;
 }
 
-#skills {
+.skills {
   border-top: 0.2px solid rgb(219, 219, 219);
   border-bottom: 0.2px solid rgb(219, 219, 219);
 }
 
 .contact {
-  width: 375px;
+  width: 100%;
   height: 850px;
   flex-shrink: 0;
   background-image: url(contact.png);
-  background-size: 375px 850px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .contactme {
   display: flex;
-  width: 375px;
+  width: 100%;
   flex-direction: column;
   justify-content: end;
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
@@ -471,7 +500,7 @@ body {
   height: 137px;
   padding: 14px 25px;
   flex-shrink: 0;
-  color: #EBEBFF;
+  color: #ebebff;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -490,12 +519,12 @@ body {
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
-  color: #B3BAC5;
+  color: #b3bac5;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  border: 1px solid #CFD8DC;
-  background: #FFF;
+  border: 1px solid #cfd8dc;
+  background: #fff;
 }
 
 .email {
@@ -508,14 +537,13 @@ body {
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
-  color: #B3BAC5;
+  color: #b3bac5;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  border: 1px solid #CFD8DC;
-  background: #FFF;
+  border: 1px solid #cfd8dc;
+  background: #fff;
 }
-
 
 .message {
   width: 311px;
@@ -525,14 +553,14 @@ body {
   padding: 10px;
   flex-shrink: 0;
   border-radius: 8px;
-  color: #B3BAC5;
+  color: #b3bac5;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  border: 1px solid #CFD8DC;
-  background: #FFF;
+  border: 1px solid #cfd8dc;
+  background: #fff;
 }
 
 .getintouch {
@@ -542,10 +570,10 @@ body {
   margin-left: 20px;
   margin-top: 10px;
   border-radius: 8px;
-  background: #FFF;
-  color: #6070FF;
+  background: #fff;
+  color: #6070ff;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -556,11 +584,11 @@ body {
 .rectangle4 {
   width: 74.701px;
   height: 17.211px;
-  margin-left: 300px;
+  margin-left: 295px;
   margin-top: 50px;
   transform: rotate(-23.177deg);
   flex-shrink: 0;
-  background: #7F8CFF;
+  background: #7f8cff;
 }
 
 .e12 {
@@ -569,7 +597,7 @@ body {
   margin-left: 150px;
   margin-top: -10px;
   flex-shrink: 0;
-  fill: #7F8CFF;
+  fill: #7f8cff;
 }
 
 .e3 {
@@ -585,7 +613,7 @@ body {
   margin-bottom: 13px;
   transform: rotate(36.739deg);
   flex-shrink: 0;
-  background: #7F8CFF;
+  background: #7f8cff;
 }
 
 .e5 {
@@ -594,6 +622,328 @@ body {
   flex-shrink: 0;
 }
 
-.light {
-  margin-top: -6px;
+/* MEDIA QUERY FOR DESKTOP */
+
+@media screen and (min-width: 768px) {
+  .myself {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .htmlcssjs {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  #container2 {
+    width: auto;
+    gap: 500px;
+  }
+
+  .containerbg {
+    background: url("header.png") no-repeat;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: #fff;
+    padding: 100px 162px;
+  }
+
+  .content {
+    width: 100%;
+    height: 98px;
+    color: #344563;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .icons {
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    align-self: flex-start;
+    padding: 10px 10px 10px 8px;
+    width: 170.167px;
+    height: 20px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .selectionlayout {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .selection {
+    display: flex;
+    padding: 10px 12px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .selectstyle {
+    color: #344563;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .logolayout {
+    display: flex;
+    padding: 0 45px;
+    align-items: center;
+  }
+
+  #logo2 {
+    font-size: 18px;
+  }
+
+  #simg {
+    width: 544px;
+    height: 448px;
+    flex-shrink: 0;
+  }
+
+  #works2 {
+    justify-items: center;
+    display: grid;
+    height: 700px;
+    align-items: center;
+    padding: 70px 20px;
+    gap: 12px;
+  }
+
+  #snapimg5 {
+    width: 495px;
+    height: 407px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(Snapshoot5.png), lightgray 50% / cover no-repeat;
+  }
+
+  #snapimg6 {
+    width: 495px;
+    height: 407px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(Snapshoot6.png), lightgray 50% / cover no-repeat;
+  }
+
+  #snapimg7 {
+    width: 495px;
+    height: 407px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(Snapshoot7.png), lightgray 50% / cover no-repeat;
+  }
+
+  #snapimg8 {
+    width: 495px;
+    height: 407px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(Snapshoot8.png), lightgray 50% / cover no-repeat;
+  }
+
+  #workscontainer2 {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    width: 80%;
+    height: 420px;
+    gap: 100px;
+  }
+
+  #workscontainerreverse {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 24px;
+    width: 80%;
+    height: 420px;
+    gap: 20px;
+  }
+
+  .facebook360 {
+    width: 135%;
+    height: 36px;
+    color: #172b4d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    gap: 12px;
+  }
+
+  #toniclayout2 {
+    justify-self: center;
+  }
+
+  #toniclayout3 {
+    justify-self: center;
+  }
+
+  #tonic2 {
+    width: 135%;
+  }
+
+  #content2o {
+    width: 115%;
+    margin-right: 75px;
+  }
+
+  #canopylayout2 {
+    width: 133%;
+  }
+
+  #canopylayout3 {
+    width: 133%;
+  }
+
+  #facebook {
+    display: block;
+  }
+
+  .width135 {
+    width: 135%;
+    color: #344563;
+    padding: 10px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  #c {
+    display: none;
+  }
+
+  #tagslayout2 {
+    width: 135%;
+  }
+
+  #seeprojectlayout2 {
+    width: 90%;
+  }
+
+  .multipost2 {
+    width: 135%;
+    height: 40px;
+    height: 36px;
+    color: #172b4d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    gap: 12px;
+  }
+
+  .about-languages {
+    align-self: center;
+  }
+
+  #languageslayout2 {
+    padding: 42px 15px;
+    width: 80%;
+  }
+
+  #languages2 {
+    width: 135%;
+  }
+
+  #paragraph1 {
+    width: 88%;
+  }
+
+  #htmlcssjs2 {
+    flex-direction: row;
+  }
+
+  #jsimg2 {
+    align-self: flex-start;
+  }
+
+  #js2 {
+    width: 90%;
+  }
+
+  #jslayout2 {
+    flex-direction: column;
+    width: 20%;
+  }
+
+  #htmlimg2 {
+    align-self: flex-start;
+  }
+
+  #htmll2 {
+    width: 90%;
+  }
+
+  #htmllayout2 {
+    flex-direction: column;
+    width: 20%;
+  }
+
+  #cssimg2 {
+    align-self: flex-start;
+  }
+
+  #css2 {
+    width: 90%;
+  }
+
+  #csslayout2 {
+    flex-direction: column;
+    width: 20%;
+  }
+
+  #contact2 {
+    display: flex;
+    flex-direction: column;
+    background: url("contactbg.png") no-repeat;
+    background-size: 95%;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 114px 24px;
+    border-top-left-radius: 25px;
+    background-color: #6070ff;
+  }
+
+  #contactdescription2 {
+    width: 95%;
+  }
+
+  #name2 {
+    width: 450px;
+    height: 30px;
+    margin-left: 450px;
+    margin-top: 10px;
+    flex-shrink: 0;
+    padding: 10px;
+  }
+
+  #message2 {
+    width: 450px;
+    height: 140px;
+    margin-left: 450px;
+    margin-top: 10px;
+    flex-shrink: 0;
+    padding: 10px;
+  }
+
+  #getintouch2 {
+    margin-left: 625px;
+    margin-top: 10px;
+  }
 }
