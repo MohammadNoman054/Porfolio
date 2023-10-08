@@ -472,7 +472,7 @@ body {
 }
 
 .contact {
-  width: 100%;
+  width: 96%;
   height: 850px;
   flex-shrink: 0;
   background-image: url(contact.png);
@@ -912,7 +912,7 @@ body {
     display: flex;
     flex-direction: column;
     background: url("contactbg.png") no-repeat;
-    background-size: 95%;
+    background-size: 80%;
     flex-shrink: 0;
     align-items: center;
     padding: 114px 24px;
